@@ -18,7 +18,7 @@ exports.orders_get_all = (req, res, next) => {
                         quantity: doc.quantity,
                         request: {
                             type: 'GET',
-                            url: 'http://localhost:3000/orders/' + doc._id
+                            url: 'http://localhost:3000/products/' + doc._id
                         }
                     }
                 })
